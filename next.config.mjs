@@ -1,18 +1,10 @@
-/** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production'
-const repoName = 'portfolio'
-
+// @ts-check
+ 
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-  output: 'export',
-  // Ensure assets resolve correctly on GitHub Pages under /portfolio
-  basePath: isProd ? `/${repoName}` : undefined,
-  assetPrefix: isProd ? `/${repoName}/` : undefined,
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
+  /* config options here */
 }
-
+ 
 export default nextConfig
