@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
-    "lint": "eslint .",
-    "start": "next start",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t true"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -71,5 +69,6 @@
     "tailwindcss": "^4.1.9",
     "tw-animate-css": "1.3.3",
     "typescript": "^5"
-  }
+  },
+  "homepage": "https://phoeurnkimhor.github.io/portfolio"
 }
