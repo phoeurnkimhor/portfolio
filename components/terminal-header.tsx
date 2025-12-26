@@ -33,7 +33,7 @@ export function TerminalHeader() {
           <span className="text-primary">root@kimclyde</span>
           <span className="text-muted-foreground">~</span>
           <span className="text-accent">$</span>
-          <span className="text-foreground">echo &quot;{displayedText}&quot;</span>
+          <span className="text-foreground">git commit -m "Turned data into insight"</span>
           <span className="terminal-cursor text-primary">_</span>
         </div>
 
@@ -43,7 +43,7 @@ export function TerminalHeader() {
           <span className="text-primary">root@kimclyde</span>
           <span className="text-muted-foreground">~</span>
           <span className="text-accent">$</span>
-          <span className="text-muted-foreground">cat khmer.txt</span>
+          <span className="text-muted-foreground">sudo make-coffee --while=training</span>
         </div>
       </div>
     </div>
