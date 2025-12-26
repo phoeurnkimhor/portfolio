@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 
 export function TerminalHeader() {
   const [displayedText, setDisplayedText] = useState("")
-  const fullText = "PHOEURN KIMHOR - DATA SCIENTIST"
+  const fullText = "PHOEURN KIMHOR"
 
   useEffect(() => {
     let currentIndex = 0
