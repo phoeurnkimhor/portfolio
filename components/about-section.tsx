@@ -3,7 +3,7 @@ export function AboutSection() {
     <div className="border border-primary/50 rounded-sm p-6 bg-card/30 backdrop-blur-sm">
       <div className="flex items-center gap-2 mb-4 text-accent">
         <span>{">"}</span>
-        <span className="text-lg font-semibold">ABOUT.ME</span>
+        <span className="text-lg font-semibold">ABOUT.MD</span>
       </div>
 
       <div className="space-y-4 text-foreground leading-relaxed">
