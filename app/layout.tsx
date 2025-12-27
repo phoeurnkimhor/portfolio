@@ -8,11 +8,12 @@ const geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Kimhor's Portfolio",
-  description: "A futuristic terminal-inspired portfolio for a Data Science professional",
+  description:
+    "Portfolio of Kimhor, a data science student passionate about machine learning, statistical modeling, and transforming data into actionable insights through clean, impactful projects.",
   icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>",
+    icon: "/kimhor-logo.png",
   },
-}
+};
 
 export default function RootLayout({
   children,
