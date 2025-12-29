@@ -75,12 +75,12 @@ export function ProjectsSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/50 to-transparent" />
               <div className="absolute top-2 right-2">
                 <span
-                  className={`text-xs px-2 py-1 rounded-sm backdrop-blur-sm ${
+                  className={`text-xs px-2 py-1 rounded-sm backdrop-blur-sm font-medium ${
                     project.status === "Production"
-                      ? "bg-primary/20 text-primary border border-primary/50"
+                      ? "bg-primary/80 text-primary-foreground border border-primary"
                       : project.status === "Research"
-                        ? "bg-accent/20 text-accent border border-accent/50"
-                        : "bg-muted/20 text-muted-foreground border border-border"
+                        ? "bg-accent/80 text-accent-foreground border border-accent"
+                        : "bg-black/60 text-white border border-white/30"
                   }`}
                 >
                   {project.status}
