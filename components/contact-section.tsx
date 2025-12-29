@@ -1,9 +1,11 @@
-import { Mail, Github, Linkedin, FileText } from "lucide-react"
+import { FileText } from "lucide-react"
+import { SiGithub, SiLinkedin, SiGmail, SiTelegram } from "react-icons/si";
 
 const contactMethods = [
-  { icon: Mail, label: "Email", value: "phoeurnkimhor@gmail.com", href: "mailto:phoeurnkimhor@gmail.com" },
-  { icon: Github, label: "GitHub", value: "github.com/phoeurnkimhor", href: "https://github.com/phoeurnkimhor" },
-  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/kimhor-phoeurn", href: "https://www.linkedin.com/in/kimhor-phoeurn" },
+  { icon: SiGmail, label: "Email", value: "phoeurnkimhor@gmail.com", href: "mailto:phoeurnkimhor@gmail.com" },
+  { icon: SiGithub, label: "GitHub", value: "github.com/phoeurnkimhor", href: "https://github.com/phoeurnkimhor" },
+  { icon: SiLinkedin, label: "LinkedIn", value: "linkedin.com/in/kimhor-phoeurn", href: "https://www.linkedin.com/in/kimhor-phoeurn" },
+  { icon: SiTelegram, label: "Telegram", value: "t.me/kimhorP", href: "https://t.me/kimhorP" },
   { icon: FileText, label: "Resume", value: "Download CV", href: "#" },
 ]
 

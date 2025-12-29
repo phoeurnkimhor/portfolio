@@ -30,7 +30,7 @@ export function TerminalHeader() {
 
       <div className="space-y-2">
         <div className="flex items-center gap-2">
-          <span className="text-primary">root@kimclyde</span>
+          <span className="text-primary">data@science</span>
           <span className="text-muted-foreground">~</span>
           <span className="text-accent">$</span>
           <span className="text-foreground">sudo rm outlier</span>
@@ -40,7 +40,7 @@ export function TerminalHeader() {
         <div className="text-2xl md:text-4xl font-bold text-primary tracking-wider">{displayedText}</div>
 
         <div className="flex items-center gap-2 mt-4">
-          <span className="text-primary">root@kimclyde</span>
+          <span className="text-primary">data@science</span>
           <span className="text-muted-foreground">~</span>
           <span className="text-accent">$</span>
           <span className="text-muted-foreground">pip install ai</span>

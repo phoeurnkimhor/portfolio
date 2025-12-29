@@ -22,13 +22,22 @@ const projects = [
     image: '/employee-cover.png',
   },
   {
+    title: "Khmer Text Style Transfer (normal-to-royal)",
+    description:
+      "Training an LSTM neural network to translate standard Khmer text into formal royal Khmer style, preserving linguistic nuances and cultural context.",
+    tech: ["Python", "LSTM", "NLP", "Seq2Seq"],
+    status: "Active",
+    link: "https://github.com/phoeurnkimhor/khmer-style-transfer",
+    image: 'https://i.ytimg.com/vi/vbjnM6HLk2E/sddefault.jpg',
+  },
+  {
     title: "Khmer Text Summarization",
     description:
       "Fine-tuning pre-trained transformer models for automatic summarization of Khmer language text, addressing the unique challenges of low-resource languages.",
     tech: ["Python", "Transformers", "NLP", "Fine-tuning"],
     status: "Active",
     link: "https://github.com/phoeurnkimhor/khmer-text-summarization",
-    image: '',
+    image: 'https://media.sbbic.org/1/download_all_khmer_fonts_a96b6a71d7.jpg',
   },
   {
     title: "Cambodia Inflation Rate Forecasting",
@@ -39,15 +48,7 @@ const projects = [
     link: "https://github.com/phoeurnkimhor/cambodia-inflation-rate-forecasting",
     image: '',
   },
-  {
-    title: "Khmer Text Style Transfer (normal-to-royal)",
-    description:
-      "Training an LSTM neural network to translate standard Khmer text into formal royal Khmer style, preserving linguistic nuances and cultural context.",
-    tech: ["Python", "LSTM", "NLP", "Seq2Seq"],
-    status: "Active",
-    link: "https://github.com/phoeurnkimhor/khmer-style-transfer",
-    image: '',
-  },
+
 ]
 
 export function ProjectsSection() {
